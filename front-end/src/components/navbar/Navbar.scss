@@ -1,0 +1,32 @@
+@import "@styles/colors.scss";
+
+.navbar {
+  &__brand {
+    color: $cl-gray !important;
+    text-decoration: none;
+    font-family: "Sigmar One", serif;
+    font-size: 36px;
+    text-transform: capitalize;
+  }
+
+  .nav-link {
+    font-size: 20px !important;
+    color: $cl-white;
+    text-transform: capitalize;
+
+    &:hover {
+      color: $cl-purple;
+    }
+  }
+
+  &__sidebar {
+    background-color: $cl-black !important;
+  }
+}
+
+@media (width < 992px) {
+  .navbar__sidebar-body {
+    // @include setDisplay(flex, center, center, column);
+    text-align: center;
+  }
+}

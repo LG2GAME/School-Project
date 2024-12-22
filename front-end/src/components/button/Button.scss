@@ -1,0 +1,19 @@
+@import "@styles/colors.scss";
+@import "@styles/mixins.scss";
+
+.button {
+  background: $cl-black;
+  border-radius: 6px;
+  border: 2px solid $cl-purple;
+  color: $cl-purple;
+  font-size: 20px !important;
+  padding: 10px clamp(10px, 4rem, 8rem);
+  text-decoration: none;
+  text-transform: capitalize;
+  width: fit-content;
+  @include setTransition();
+
+  &:hover {
+    @include setScale();
+  }
+}

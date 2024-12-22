@@ -1,0 +1,7 @@
+body {
+  background-attachment: fixed;
+  background-color: #000000 !important;
+  background-image: url(/Cubes.svg);
+  background-position: right;
+  background-repeat: no-repeat;
+}
