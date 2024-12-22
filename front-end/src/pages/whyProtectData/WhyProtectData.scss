@@ -1,0 +1,17 @@
+@import "@styles/colors.scss";
+@import "@styles/mixins.scss";
+
+.wpd {
+  @include minHeight();
+  @include setDisplay(flex, center, center, column);
+  gap: 60px;
+  text-align: center;
+
+  &__list {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: center;
+    width: 100%;
+  }
+}

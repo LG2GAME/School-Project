@@ -11,19 +11,19 @@
 }
 
 @mixin setTransition($delay: 0.3s) {
-  transition: all $delay ease-in-out;
+  transition: all $delay ease;
 }
 
 @mixin setScale($scale: 1.025) {
   scale: $scale;
 }
 
-// @mixin minHeight() {
-//   height: 100vh;
-//   min-height: 100vh;
-//   width: 100%;
+@mixin minHeight($vHeight: 100vh) {
+  height: $vHeight;
+  min-height: $vHeight;
+  width: 100%;
 
-//   @media (width <= 992px) {
-//     height: 100%;
-//   }
-// }
+  @media (width <= 992px) {
+    height: 100%;
+  }
+}

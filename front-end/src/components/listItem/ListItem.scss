@@ -1,0 +1,28 @@
+@import "@styles/colors.scss";
+@import "@styles/mixins.scss";
+
+.list-item {
+  @include setDisplay(flex, center, top, column);
+  background-color: $cl-black-80;
+  border: 2px solid $cl-white-25;
+  color: $cl-white;
+  gap: 15px;
+  height: 100%;
+  padding: 30px 15px;
+
+  svg {
+    height: auto;
+    width: 32px;
+  }
+
+  &__title {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+
+  &__content {
+    color: $cl-gray;
+    text-transform: lowercase;
+  }
+}

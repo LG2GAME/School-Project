@@ -14,7 +14,7 @@ export default function NavbarComponent() {
       <Container className="p-2">
         <Navbar.Brand>
           <Link to="../#home" className="navbar__brand">
-            Bezpiecznie W Sieci
+            tdts
           </Link>
         </Navbar.Brand>
         <a
@@ -41,7 +41,7 @@ export default function NavbarComponent() {
             ></button>
           </Offcanvas.Header>
           <Offcanvas.Body className="navbar__sidebar-body">
-            <Nav className="justify-content-end fs-5 flex-grow-1 gap-3">
+            <Nav className="gap-5">
               <Link to="../#home" className="nav-link" onClick={closeOffcanvas}>
                 <p className="m-0">home</p>
               </Link>

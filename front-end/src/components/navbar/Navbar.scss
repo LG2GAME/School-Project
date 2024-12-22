@@ -1,6 +1,9 @@
 @import "@styles/colors.scss";
+@import "@styles/mixins.scss";
 
 .navbar {
+  height: 10vh;
+
   &__brand {
     color: $cl-gray !important;
     text-decoration: none;
@@ -11,22 +14,28 @@
 
   .nav-link {
     font-size: 20px !important;
-    color: $cl-white;
+    color: $cl-white !important;
     text-transform: capitalize;
 
     &:hover {
-      color: $cl-purple;
+      color: $cl-purple !important;
     }
   }
 
   &__sidebar {
     background-color: $cl-black !important;
+
+    &-body {
+      @include setDisplay(flex, center, end, row);
+      color: $cl-white !important;
+      text-transform: capitalize;
+      text-align: start;
+    }
   }
 }
 
 @media (width < 992px) {
   .navbar__sidebar-body {
-    // @include setDisplay(flex, center, center, column);
-    text-align: center;
+    justify-content: center;
   }
 }

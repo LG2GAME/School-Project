@@ -1,0 +1,33 @@
+@import "@styles/colors.scss";
+@import "@styles/mixins.scss";
+
+.hero {
+  @include setDisplay(flex, center, center, column);
+  @include minHeight(90vh);
+  text-align: center;
+  gap: 30px;
+  // background-image: url("@assets/mesh-grad.svg");
+  // background-repeat: no-repeat;
+  // background-position: bottom;
+  // background-size: contain;
+
+  .header {
+    font-weight: 900;
+
+    span {
+      color: $cl-purple;
+      font-style: italic;
+      padding-right: 7.5px;
+    }
+  }
+
+  &__image {
+    width: clamp(30%, 335px, 100%);
+  }
+}
+
+@media (width <=768px) {
+  .hero {
+    justify-content: center;
+  }
+}

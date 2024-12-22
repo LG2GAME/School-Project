@@ -6,3 +6,35 @@ body {
   font-family: "Montserrat", serif;
   font-weight: 400;
 }
+
+.header {
+  color: $cl-white;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: capitalize;
+}
+
+.sidet {
+  color: $cl-gray;
+  font-size: 20px;
+}
+
+@media (width <= 768px) {
+  .header {
+    font-size: 36px;
+  }
+
+  .sidet {
+    font-size: 16px;
+  }
+}
+
+@media (width <= 375px) {
+  .header {
+    font-size: 24px;
+  }
+
+  .sidet {
+    font-size: 14px;
+  }
+}

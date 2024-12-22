@@ -4,6 +4,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "@styles/theme.scss";
 
 import Navbar from "@components/navbar/Navbar";
+import Hero from "@pages/hero/Hero";
+import WhyProtectData from "@pages/WhyProtectData/WhyProtectData";
 
 function App() {
   return (
@@ -13,7 +15,11 @@ function App() {
           path="/"
           element={
             <div>
-              <Navbar /> <div className="container">asdf</div>
+              <Navbar />
+              <div className="container">
+                <Hero />
+                <WhyProtectData />
+              </div>
             </div>
           }
         />
