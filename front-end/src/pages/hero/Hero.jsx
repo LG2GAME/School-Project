@@ -1,7 +1,6 @@
 import "./Hero.scss";
 
 import ClickIMG from "@assets/click.svg";
-// import MeshGradIMG from "@assets/mesh-grad.svg";
 
 function Hero() {
   return (

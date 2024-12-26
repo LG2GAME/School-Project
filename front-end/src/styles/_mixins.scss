@@ -19,7 +19,6 @@
 }
 
 @mixin minHeight($vHeight: 100vh) {
-  height: $vHeight;
   min-height: $vHeight;
   width: 100%;
 

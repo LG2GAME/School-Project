@@ -2,7 +2,7 @@
 @import "@styles/mixins.scss";
 
 .navbar {
-  height: 10vh;
+  height: 13.75vh;
 
   &__brand {
     color: $cl-gray !important;
@@ -13,7 +13,7 @@
   }
 
   .nav-link {
-    font-size: 20px !important;
+    font-size: 16px !important;
     color: $cl-white !important;
     text-transform: capitalize;
 

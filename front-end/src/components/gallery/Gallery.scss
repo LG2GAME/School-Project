@@ -1,0 +1,54 @@
+@import "@styles/colors.scss";
+@import "@styles/mixins.scss";
+
+.sw-gallery {
+  @include setDisplay();
+  gap: 30px;
+  width: 100%;
+  height: auto;
+
+  &__container {
+    height: 100% !important;
+
+    &-slide {
+      @include setDisplay(flex, center, start, column);
+      gap: 15px;
+      padding: 30px 10px;
+      background-color: $cl-black-80;
+      border: 2px solid $cl-white-25;
+      height: auto !important;
+
+      &-header {
+        font-size: 24px;
+        font-weight: 700;
+      }
+
+      &-desc {
+        font-size: 16px;
+        color: $cl-gray;
+        line-height: 150%;
+      }
+    }
+  }
+
+  &__btn {
+    color: $cl-white;
+    background-color: $cl-black-80;
+    border: 2px solid $cl-purple;
+    padding: 3px 12px;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+  .swiper-button-disabled {
+    opacity: 0;
+  }
+}
+
+@media (width <= 525px) {
+  .sw-gallery__btn {
+    display: none;
+  }
+}

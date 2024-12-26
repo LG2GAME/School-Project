@@ -2,8 +2,9 @@ import { HashLink as Link } from "react-router-hash-link";
 import { Offcanvas, Navbar, Container, Nav } from "react-bootstrap";
 import { useState } from "react";
 
-import Button from "@components/button/Button";
 import "./Navbar.scss";
+
+import Button from "@components/button/Button";
 
 export default function NavbarComponent() {
   const [expanded, setExpanded] = useState(false);
@@ -53,11 +54,11 @@ export default function NavbarComponent() {
                 <p className="m-0">co to jest?</p>
               </Link>
               <Link
-                to="../#your-rights"
+                to="../#security"
                 className="nav-link"
                 onClick={closeOffcanvas}
               >
-                <p className="m-0">twoje prawa</p>
+                <p className="m-0">zabezpieczenia</p>
               </Link>
               <Button content="gra" link="../#quiz" />
             </Nav>

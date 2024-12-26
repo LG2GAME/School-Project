@@ -1,6 +1,8 @@
-import "./WhyProtectData.scss";
 import { ListItem as Item } from "@components/listItem/ListItem";
-import WPDData from "@data/WhyProtectData.json"; // dane z pliku JSON
+
+import "./WhyProtectData.scss";
+
+import WPDData from "@data/WhyProtectData.json";
 
 function WhyProtectData() {
   return (
@@ -11,9 +13,9 @@ function WhyProtectData() {
           return (
             <Item
               key={index}
-              icon={item.icon} // przekazujesz nazwę ikony
-              title={item.title}
-              content={item.content}
+              icon={item.icon}
+              header={item.header}
+              description={item.description}
             />
           );
         })}

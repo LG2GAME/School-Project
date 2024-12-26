@@ -1,0 +1,34 @@
+[
+  {
+    "header": "Dane personalne",
+    "description": "Informacje podstawowe, takie jak imię, nazwisko, data urodzenia czy numer PESEL, które bezpośrednio wskazują na konkretną osobę."
+  },
+  {
+    "header": "Dane kontaktowe",
+    "description": "Dane umożliwiające komunikację, np. numer telefonu, adres e-mail, adres zamieszkania."
+  },
+  {
+    "header": "Dane finansowe",
+    "description": "Informacje związane z sytuacją finansową, takie jak numer konta bankowego, dane karty płatniczej czy wynagrodzenie."
+  },
+  {
+    "header": "Dane lokalizacyjne",
+    "description": "Informacje o miejscu pobytu osoby, np. dane GPS lub historia lokalizacji z urządzeń mobilnych."
+  },
+  {
+    "header": "Dane biometryczne",
+    "description": "Unikalne cechy fizyczne lub behawioralne, np. odciski palców, rozpoznawanie twarzy czy tęczówki oka."
+  },
+  {
+    "header": "Dane zdrowotne",
+    "description": "Informacje dotyczące stanu zdrowia, przebytych chorób, wyników badań medycznych czy leczenia."
+  },
+  {
+    "header": "Dane o poglądach",
+    "description": "Dane o wyznaniu religijnym, orientacji politycznej, przynależności do związków zawodowych czy przekonaniach filozoficznych."
+  },
+  {
+    "header": "Dane behawioralne",
+    "description": "Dane o aktywnościach, np. historia przeglądanych stron, nawyki zakupowe czy preferencje online."
+  }
+]

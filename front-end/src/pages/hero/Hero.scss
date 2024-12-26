@@ -3,7 +3,7 @@
 
 .hero {
   @include setDisplay(flex, center, center, column);
-  @include minHeight(90vh);
+  @include minHeight(86.25vh);
   text-align: center;
   gap: 30px;
   // background-image: url("@assets/mesh-grad.svg");

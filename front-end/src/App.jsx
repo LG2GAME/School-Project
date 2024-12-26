@@ -6,6 +6,9 @@ import "@styles/theme.scss";
 import Navbar from "@components/navbar/Navbar";
 import Hero from "@pages/hero/Hero";
 import WhyProtectData from "@pages/WhyProtectData/WhyProtectData";
+import WhatItIs from "@pages/whatItIs/WhatItIs";
+import YourWebData from "@pages/yourWebData/YourWebData";
+import Footer from "@pages/footer/Footer";
 
 function App() {
   return (
@@ -19,6 +22,10 @@ function App() {
               <div className="container">
                 <Hero />
                 <WhyProtectData />
+                <WhatItIs />
+                <YourWebData />
+                {/* TU BEDZIE GRA */}
+                <Footer />
               </div>
             </div>
           }

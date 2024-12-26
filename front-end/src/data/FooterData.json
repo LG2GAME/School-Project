@@ -1,0 +1,22 @@
+[
+  {
+    "icon": "FaLightbulb",
+    "header": "Wzrost świadomości",
+    "description": "75% użytkowników zna zasady ochrony danych."
+  },
+  {
+    "icon": "FaHandcuffs",
+    "header": "Zwiększenie cyberataków",
+    "description": "50% więcej ataków phishingowych w 2024 roku."
+  },
+  {
+    "icon": "FaKey",
+    "header": "2FA",
+    "description": "70% organizacji stosuje 2FA."
+  },
+  {
+    "icon": "FaShieldVirus",
+    "header": "cyberbezpieczeństwo",
+    "description": "50% firm zwiększyło budżet na ochronę danych."
+  }
+]

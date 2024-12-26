@@ -1,0 +1,26 @@
+[
+  {
+    "icon": "FaFingerprint",
+    "header": "zabezpieczenia dostępu do Danych",
+    "description": [
+      "Niezawodne zabezpieczenia to podstawa ochrony danych osobowych. Obejmują narzędzia, takie jak silne hasła, szyfrowanie czy uwierzytelnianie dwuskładnikowe.",
+      "Te rozwiązania pomagają chronić Twoje informacje przed wyciekami, atakami hakerskimi i nieautoryzowanym dostępem, zapewniając większe bezpieczeństwo."
+    ]
+  },
+  {
+    "icon": "MdOutlineAppBlocking",
+    "header": "Zwiększenie bezpieczeństwa danych",
+    "description": [
+      "Zwiększenie bezpieczeństwa danych to ważny krok w ochronie Twoich informacji. Antywirusy, oprogramowanie ochronne i zapory sieciowe pomagają wykrywać i usuwać zagrożenia, takie jak wirusy i malware.",
+      "Dzięki tym narzędziom Twoje dane są bezpieczniejsze przed nieautoryzowanym dostępem i atakami."
+    ]
+  },
+  {
+    "icon": "FaBookReader",
+    "header": "Świadomość cyberzagrożeń",
+    "description": [
+      "Świadomość cyberzagrożeń to podstawa ochrony danych osobowych w internecie. Obejmuje zrozumienie zagrożeń, takich jak phishing czy malware, oraz wiedzę, jak ich unikać.",
+      "Edukacja w tym zakresie uczy rozpoznawania ataków i stosowania dobrych praktyk, np. unikania podejrzanych linków, aktualizowania oprogramowania i używania zabezpieczeń."
+    ]
+  }
+]

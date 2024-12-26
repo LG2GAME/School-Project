@@ -1,0 +1,16 @@
+@import "@styles/mixins.scss";
+
+.ywd {
+  @include minHeight();
+  @include setDisplay(flex, center, center, column);
+  gap: 60px;
+
+  .header {
+    text-align: center;
+  }
+
+  &__layout {
+    @include setDisplay(flex, center, center, column);
+    gap: 60px;
+  }
+}

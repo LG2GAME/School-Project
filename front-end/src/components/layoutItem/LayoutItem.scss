@@ -1,0 +1,90 @@
+@import "@styles/colors.scss";
+@import "@styles/mixins.scss";
+
+.lt-item {
+  @include setDisplay();
+  height: 100%;
+  width: 100%;
+  gap: 60px;
+  padding: 0 60px;
+
+  &:nth-child(odd) {
+    flex-direction: row-reverse;
+  }
+
+  &__image {
+    @include setDisplay();
+    width: 40%;
+
+    &-svg {
+      width: 50%;
+      height: auto;
+    }
+  }
+
+  &__content {
+    @include setDisplay(flex, start, start, column);
+    gap: 30px;
+    width: 60%;
+
+    &-header {
+      font-size: 24px;
+      font-weight: 600;
+      text-transform: capitalize;
+    }
+
+    &-content {
+      color: $cl-gray;
+    }
+
+    .button {
+      font-size: 16px !important;
+    }
+  }
+}
+
+@media (width <= 1024px) {
+  .lt-item {
+    padding: 0;
+  }
+}
+
+@media (width <= 992px) {
+  .lt-item {
+    &__image {
+      width: 25%;
+
+      &-svg {
+        width: 100%;
+      }
+    }
+
+    &__content {
+      width: 75%;
+    }
+  }
+}
+
+@media (width <= 768px) {
+  .lt-item {
+    flex-direction: column !important;
+    min-height: 100vh;
+
+    &__content {
+      align-items: center;
+      text-align: center;
+    }
+  }
+}
+
+@media (width <= 525px) {
+  .lt-item {
+    &__image {
+      width: 50%;
+    }
+
+    &__content {
+      width: 100%;
+    }
+  }
+}

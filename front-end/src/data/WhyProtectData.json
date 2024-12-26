@@ -1,22 +1,22 @@
 [
   {
     "icon": "FaUserTag",
-    "title": "Cyfrowa tożsamość",
-    "content": "Dane osobiste tworzą obraz Twojego życia, dlatego ich ochrona jest niezbędna dla zachowania prywatności."
+    "header": "Cyfrowa tożsamość",
+    "description": "Dane osobiste tworzą obraz Twojego życia, dlatego ich ochrona jest niezbędna dla zachowania prywatności."
   },
   {
     "icon": "FaRegHandshake",
-    "title": "Kontrola i zaufanie",
-    "content": "Świadomość przetwarzania danych oraz prawo do wyrażenia zgody dają Ci pełną kontrolę nad informacjami."
+    "header": "Kontrola i zaufanie",
+    "description": "Świadomość przetwarzania danych oraz prawo do wyrażenia zgody dają Ci pełną kontrolę nad informacjami."
   },
   {
     "icon": "FaUserSecret",
-    "title": "Prawo do prywatności",
-    "content": "Regulacje, takie jak prawo do bycia zapomnianym, pozwalają świadomie zarządzać danymi."
+    "header": "Prawo do prywatności",
+    "description": "Regulacje, takie jak prawo do bycia zapomnianym, pozwalają świadomie zarządzać danymi."
   },
   {
     "icon": "FaLightbulb",
-    "title": "Świadome decyzje",
-    "content": "Znajomość zasad zbierania i przetwarzania danych pozwala na podejmowanie mądrych wyborów i unikanie zagrożeń."
+    "header": "Świadome decyzje",
+    "description": "Znajomość zasad zbierania i przetwarzania danych pozwala na podejmowanie mądrych wyborów i unikanie zagrożeń."
   }
 ]
