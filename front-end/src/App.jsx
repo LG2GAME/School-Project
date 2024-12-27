@@ -9,6 +9,7 @@ import WhyProtectData from "@pages/WhyProtectData/WhyProtectData";
 import WhatItIs from "@pages/whatItIs/WhatItIs";
 import YourWebData from "@pages/yourWebData/YourWebData";
 import Footer from "@pages/footer/Footer";
+import Protect from "@pages/protect/Protect";
 
 function App() {
   return (
@@ -30,6 +31,38 @@ function App() {
             </div>
           }
         />
+        <Route path="security">
+          <Route
+            path="basic"
+            element={
+              <div>
+                <div className="container">
+                  <Protect item="basic" />
+                </div>
+              </div>
+            }
+          />
+          <Route
+            path="advanced"
+            element={
+              <div>
+                <div className="container">
+                  <Protect item="advanced" />
+                </div>
+              </div>
+            }
+          />
+          <Route
+            path="expert"
+            element={
+              <div>
+                <div className="container">
+                  <Protect item="expert" />
+                </div>
+              </div>
+            }
+          />
+        </Route>
       </Routes>
     </BrowserRouter>
   );

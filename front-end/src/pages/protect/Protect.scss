@@ -1,0 +1,80 @@
+@import "@styles/mixins.scss";
+@import "@styles/colors.scss";
+
+.protect {
+  @include minHeight();
+  @include setDisplay(inline-flex, none, none, column);
+  padding: 60px 0;
+  gap: 60px;
+
+  &__title {
+    @include setDisplay();
+    text-align: center;
+    gap: 60px;
+
+    a {
+      color: $cl-white-25;
+      @include setTransition();
+
+      &:hover {
+        color: $cl-white;
+      }
+    }
+  }
+
+  &__content {
+    @include setDisplay(flex, start, start, column);
+    width: 60%;
+    gap: 30px;
+
+    &-title {
+      font-size: 20px;
+      font-weight: 600;
+      color: #fff;
+      text-transform: capitalize;
+    }
+
+    &-description {
+      color: $cl-gray;
+      margin-left: 30px;
+      text-transform: lowercase;
+    }
+  }
+}
+
+@media (width <= 1024px) {
+  .protect__content {
+    width: 75%;
+  }
+}
+
+@media (width <= 768px) {
+  .protect {
+    &__title {
+      gap: 30px;
+    }
+    &__content {
+      width: 90%;
+    }
+  }
+}
+
+@media (width <= 425px) {
+  .protect {
+    &__title {
+      gap: 30px;
+    }
+    &__content {
+      width: 100%;
+
+      &-title {
+        width: 100%;
+        text-align: center;
+      }
+
+      &-description {
+        margin: 0;
+      }
+    }
+  }
+}

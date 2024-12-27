@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Zwiększenie bezpieczeństwa danych",
+    "content": [
+      {
+        "header": "Antywirusy",
+        "description": [
+          "Antywirus to oprogramowanie wykrywające, blokujące i usuwające wirusy oraz inne złośliwe programy, takie jak trojany czy ransomware.",
+          {
+            "list": [
+              "Dlaczego warto?",
+              "Chroni przed infekcjami z plików, stron internetowych czy urządzeń USB.",
+              "Umożliwia skanowanie systemu w poszukiwaniu zagrożeń.",
+              "Automatycznie blokuje podejrzane działania w tle."
+            ]
+          },
+          "Korzystaj z aktualizowanych wersji antywirusów i regularnie wykonuj pełne skanowanie systemu."
+        ]
+      },
+      {
+        "header": "Antymalware",
+        "description": [
+          "Antymalware to oprogramowanie przeznaczone do wykrywania, blokowania i usuwania złośliwego oprogramowania (malware), w tym wirusów, trojanów, spyware, ransomware czy adware. Jest to uzupełnienie klasycznych antywirusów, koncentrujące się na bardziej zaawansowanych i nowoczesnych zagrożeniach.",
+          {
+            "list": [
+              "Dlaczego warto?",
+              "Chroni system przed nowymi typami złośliwego oprogramowania, które mogą omijać standardowe antywirusy.",
+              "Skutecznie usuwa ukryte zagrożenia, takie jak programy szpiegujące czy oprogramowanie wymuszające okup.",
+              "Zapewnia dodatkowy poziom ochrony podczas korzystania z internetu i pobierania plików."
+            ]
+          },
+          "Antymalware to ważne narzędzie w walce z zaawansowanymi zagrożeniami, które może skutecznie zwiększyć bezpieczeństwo Twoich danych i urządzeń."
+        ]
+      },
+      {
+        "header": "Oprogramowanie ochronne",
+        "description": [
+          "Oprogramowanie ochronne, obejmuje ono pakiety zabezpieczeń, które łączą w sobie funkcje antywirusa, antymalware, firewalla i narzędzi do ochrony prywatności.",
+          {
+            "list": [
+              "Dlaczego warto?",
+              "Zapewnia kompleksową ochronę przed zagrożeniami.",
+              "Monitoruje sieć i wykrywa podejrzane działania w czasie rzeczywistym.",
+              "Chroni dane osobowe, hasła i płatności online."
+            ]
+          },
+          "Wybieraj pakiety z funkcjami blokowania reklam i ochroną przed phishingiem, aby zminimalizować ryzyko oszustw."
+        ]
+      },
+      {
+        "header": "Zapory sieciowe (firewalle)",
+        "description": [
+          "Zapora sieciowa to system monitorujący ruch sieciowy i blokujący nieautoryzowane połączenia.",
+          {
+            "list": [
+              "Dlaczego warto?",
+              "Chroni przed atakami z zewnątrz, blokując podejrzane adresy IP.",
+              "Zabezpiecza dane podczas korzystania z Internetu.",
+              "Pomaga zapobiegać wyciekom informacji."
+            ]
+          },
+          "Korzystaj z zapory wbudowanej w system operacyjny lub instaluj dodatkowe firewalle o większych możliwościach konfiguracji."
+        ]
+      },
+      {
+        "header": "Dodatkowe sposoby na bezpieczeństwo w sieci",
+        "description": [
+          {
+            "list": [
+              "",
+              "VPN szyfruje połączenia internetowe, ukrywając Twoją aktywność w sieci przed dostawcami usług internetowych i potencjalnymi atakującymi.",
+              "Nieaktualne systemy i aplikacje to łatwy cel dla hakerów. Włącz automatyczne aktualizacje, aby eliminować luki bezpieczeństwa.",
+              "Nie klikaj w nieznane linki ani nie otwieraj załączników z podejrzanych e-maili. Weryfikuj nadawcę, zanim podasz jakiekolwiek dane.",
+              "Dawaj aplikacjom tylko te uprawnienia, które są niezbędne. Zminimalizuje to ryzyko wycieku danych.",
+              "Twórz trudne do odgadnięcia hasła i przechowuj je w menedżerze, aby uniknąć zapamiętywania wielu kombinacji."
+            ]
+          },
+          "Dzięki wdrożeniu tych środków Twoje dane i aktywność w sieci będą znacznie lepiej chronione."
+        ]
+      }
+    ]
+  }
+]

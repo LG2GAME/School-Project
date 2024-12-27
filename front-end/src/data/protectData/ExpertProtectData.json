@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Świadomość cyberzagrożeń",
+    "content": [
+      {
+        "description": [
+          "Świadomość cyberzagrożeń polega na zrozumieniu, jakie niebezpieczeństwa czyhają w sieci, takich jak phishing, malware, czy ataki typu ransomware, oraz wiedzy, jak się przed nimi chronić. Edukacja w zakresie cyberbezpieczeństwa pozwala na szybkie rozpoznanie potencjalnych zagrożeń i stosowanie odpowiednich środków ostrożności.",
+          {
+            "list": [
+              "Dlaczego warto?",
+              "Pozwala unikać niebezpiecznych sytuacji w sieci, takich jak otwieranie podejrzanych e-maili czy klikanie w nieznane linki.",
+              "Pomaga w rozpoznawaniu ataków phishingowych i unikanie wprowadzania danych osobowych na fałszywe strony.",
+              "Zwiększa bezpieczeństwo podczas korzystania z internetu, w tym w sieci publicznej i podczas pobierania plików."
+            ]
+          }
+        ]
+      },
+      {
+        "header": "Phishing",
+        "description": [
+          "Phishing to rodzaj oszustwa internetowego, w którym cyberprzestępcy podszywają się pod wiarygodne instytucje (np. banki, serwisy internetowe), aby wyłudzić poufne informacje, takie jak hasła, numery kart kredytowych czy dane logowania.",
+          {
+            "list": [
+              "Jak się chronić?",
+              "Zawsze sprawdzaj adres e-mail nadawcy.",
+              "Nigdy nie klikaj w podejrzane linki i nie pobieraj załączników od nieznanych nadawców.",
+              "Zamiast kliknąć w linki w e-mailu, wpisz adres strony bezpośrednio w przeglądarkę."
+            ]
+          }
+        ]
+      },
+      {
+        "header": "Malware (złośliwe oprogramowanie)",
+        "description": [
+          "Malware to oprogramowanie zaprojektowane w celu zainfekowania systemu komputerowego, kradzieży danych, uszkodzenia plików lub uzyskania nieautoryzowanego dostępu do urządzenia. Może przybierać formy wirusów, trojanów, ransomware itp.",
+          {
+            "list": [
+              "Jak się chronić?",
+              "Zainstaluj i regularnie aktualizuj oprogramowanie antywirusowe.",
+              "Pobieraj pliki wyłącznie z wiarygodnych źródeł.",
+              "Nie otwieraj załączników ani nie klikaj w linki w podejrzanych wiadomościach."
+            ]
+          }
+        ]
+      },
+      {
+        "header": "Ransomware (oprogramowanie blokujące dostęp)",
+        "description": [
+          "Ransomware to rodzaj malware, który blokuje dostęp do systemu lub plików i żąda okupu za ich odblokowanie. Atakujący często grożą, że usuną dane lub je upublicznią, jeśli okup nie zostanie zapłacony.",
+          {
+            "list": [
+              "Jak się chronić?",
+              "Regularnie wykonuj kopie zapasowe ważnych danych.",
+              "Korzystaj z oprogramowania antywirusowego, które wykrywa ransomware.",
+              "Unikaj klikania w podejrzane linki, zwłaszcza w e-mailach z nieznanych źródeł."
+            ]
+          }
+        ]
+      },
+      {
+        "description": [
+          "Te trzy typy ataków są powszechnie stosowane przez cyberprzestępców i mogą prowadzić do poważnych konsekwencji. Wiedza na ich temat i przestrzeganie zasad bezpieczeństwa online pomoże zminimalizować ryzyko ich wystąpienia."
+        ]
+      }
+    ]
+  }
+]

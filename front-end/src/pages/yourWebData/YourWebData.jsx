@@ -15,6 +15,7 @@ function YourWebData() {
               icon={item.icon}
               header={item.header}
               description={item.description}
+              link={item.link}
             />
           );
         })}

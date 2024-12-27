@@ -11,7 +11,7 @@ const iconMap = {
   MdOutlineAppBlocking: MdOutlineAppBlocking,
 };
 
-export const LayoutItem = ({ icon, header, description }) => {
+export const LayoutItem = ({ icon, header, description, link }) => {
   const IconComponent = iconMap[icon];
 
   return (
@@ -43,7 +43,7 @@ export const LayoutItem = ({ icon, header, description }) => {
             return <p key={index}>{item}</p>;
           })}
         </div>
-        <Button content="Więcej" link="nothing-now" />
+        <Button content="Więcej" link={link} />
       </div>
     </div>
   );

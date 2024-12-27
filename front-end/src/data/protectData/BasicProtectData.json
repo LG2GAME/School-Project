@@ -1,0 +1,56 @@
+[
+  {
+    "title": "Zabezpieczenia dostępu do danych",
+    "content": [
+      {
+        "header": "Silne hasła",
+        "description": [
+          "Hasło to pierwsza linia obrony chroniąca dostęp do naszych danych osobowych i kont internetowych. Dobrze skonstruowane hasło powinno być silne i unikalne, co znacząco utrudnia hakerom jego odgadnięcie.",
+          {
+            "list": [
+              "Oto kilka zasad tworzenia skutecznego hasła:",
+              "Długość: Hasło powinno mieć co najmniej 12 znaków.",
+              "Zróżnicowanie znaków: Używaj dużych i małych liter, cyfr oraz symboli.",
+              "Unikanie oczywistości: Nie stosuj popularnych fraz, prostych ciągów znaków („123456”), ani danych osobistych (np. imienia).",
+              "Unikalność: Każde konto powinno mieć inne hasło."
+            ]
+          },
+          "Regularna zmiana haseł jest również ważna, szczególnie w przypadku podejrzenia wycieku danych. Dla dodatkowego bezpieczeństwa warto korzystać z menedżerów haseł, które pomogą zarządzać różnorodnymi i skomplikowanymi hasłami.",
+          "Pamiętaj, że hasło jest kluczem do Twojej cyfrowej tożsamości – im silniejsze, tym lepsza ochrona Twoich danych."
+        ]
+      },
+      {
+        "header": "Szyfrowanie danych",
+        "description": [
+          "Szyfrowanie to proces zamiany danych na zaszyfrowany kod, który może być odczytany tylko przez osoby posiadające odpowiedni klucz deszyfrujący. Jest to jedno z najskuteczniejszych narzędzi ochrony informacji, które minimalizuje ryzyko ich nieautoryzowanego dostępu.",
+          {
+            "list": [
+              "Dlaczego warto szyfrować dane?",
+              "Ochrona poufności: Uniemożliwia odczytanie danych przez niepowołane osoby.",
+              "Zabezpieczenie w razie kradzieży: Nawet po przejęciu nośnika dane pozostają nieczytelne.",
+              "Uniwersalność: Stosowane w e-mailach, komunikatorach i przechowywaniu plików."
+            ]
+          },
+          "Podstawą szyfrowania jest klucz – hasło lub certyfikat – który umożliwia odszyfrowanie danych. Używaj narzędzi wspierających szyfrowanie, takich jak VPN czy oprogramowanie szyfrujące pliki, by zwiększyć ochronę swoich informacji.",
+          "Szyfrowanie to fundament nowoczesnego bezpieczeństwa danych, który skutecznie chroni je przed nieautoryzowanym dostępem, zapewniając poufność i prywatność."
+        ]
+      },
+      {
+        "header": "Uwierzytelnianie dwuskładnikowe (2FA)",
+        "description": [
+          "Uwierzytelnianie dwuskładnikowe (2FA) to metoda zabezpieczenia dostępu do danych, która wymaga potwierdzenia tożsamości użytkownika za pomocą dwóch niezależnych czynników. Dzięki temu znacząco zwiększa poziom bezpieczeństwa, utrudniając osobom niepowołanym dostęp do poufnych informacji. Zwykle są to: 1. hasło lub PIN 2. kod z aplikacji, odcisk palca.",
+          {
+            "list": [
+              "Dlaczego warto korzystać z 2FA?",
+              "Większe bezpieczeństwo: Chroni nawet w przypadku przejęcia hasła.",
+              "Ochrona przed atakami: Utrudnia dostęp hakerom i phishingowym oszustwom.",
+              "Łatwość wdrożenia: Wiele serwisów internetowych i banków oferuje tę opcję."
+            ]
+          },
+          "Aby zacząć, aktywuj 2FA w ustawieniach konta, wybierz metodę weryfikacji (np. SMS lub aplikacja), i zachowaj kody zapasowe na wypadek utraty urządzenia. Dzięki temu Twoje dane będą skuteczniej chronione przed nieautoryzowanym dostępem.",
+          "Dzięki 2FA nawet w przypadku złamania hasła Twoje dane są chronione, co czyni tę metodę jednym z najskuteczniejszych narzędzi zabezpieczania dostępu."
+        ]
+      }
+    ]
+  }
+]
