@@ -20,46 +20,45 @@ export default function Protect({ item }) {
 
   return (
     <>
-      {whatDB.map((item, index) => {
+      {whatDB.map((protectItem, protectIndex) => {
         return (
-          <section key={index} className="protect">
-            <div className="protect__title">
+          <section className="protect" key={protectIndex}>
+            <div className="protect__heading">
               <Link to="/#security" className="header">
                 <IoMdArrowRoundBack />
               </Link>
-              <h1 className="header">{item.title}</h1>
+              <h1 className="header m-0">{protectItem.title}</h1>
             </div>
-
-            {/* Mapowanie dla content */}
-            {item.content.map((contentItem, contentIndex) => (
-              <div key={contentIndex} className="protect__content">
-                <p className="protect__content-title m-0">
-                  {contentItem.header}
-                </p>
-                <div className="protect__content-description">
-                  {/* Mapowanie dla opisu */}
-                  {contentItem.description.map((descItem, descIndex) => {
-                    // Mapowanie dla listy
-                    if (typeof descItem === "object" && descItem.list) {
-                      return (
-                        <div key={descIndex}>
-                          <p>{descItem.list[0]}</p>
-                          <ul>
-                            {descItem.list
-                              .slice(1)
-                              .map((listItem, listIndex) => {
-                                return <li key={listIndex}>{listItem}</li>;
-                              })}
-                          </ul>
-                        </div>
-                      );
-                    }
-
-                    return <p key={descIndex}>{descItem}</p>;
-                  })}
+            {protectItem.content.map((contentItem, contentIndex) => {
+              return (
+                <div className="protect__content" key={contentIndex}>
+                  <div>
+                    <p className="protect__content-title">
+                      {contentItem.header}
+                    </p>
+                    <div className="protect__content-description">
+                      {contentItem.description.map((descItem, descIndex) => {
+                        if (typeof descItem === "object" && descItem.list) {
+                          return (
+                            <div key={descIndex}>
+                              <p>{descItem.list[0]}</p>
+                              <ul>
+                                {descItem.list
+                                  .slice(1)
+                                  .map((listItem, listIndex) => {
+                                    return <li key={listIndex}>{listItem}</li>;
+                                  })}
+                              </ul>
+                            </div>
+                          );
+                        }
+                        return <p key={descIndex}>{descItem}</p>;
+                      })}
+                    </div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </section>
         );
       })}
