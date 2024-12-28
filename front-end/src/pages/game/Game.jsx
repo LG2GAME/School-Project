@@ -1,15 +1,19 @@
 import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
+import { useNickname } from "@context/UserContext";
 
 import "./Game.scss";
 
-import Button from "@components/button/Button";
-
 function Game() {
-  const [nickname, setNickname] = useState(""); // Stan przechowujący wprowadzoną nazwę
+  const [inputValue, setInputValue] = useState("");
+  const { setNickname } = useNickname(inputValue);
 
   const handleInputChange = (e) => {
-    setNickname(e.target.value); // Aktualizacja stanu na podstawie wpisanej wartości
+    setInputValue(e.target.value);
+  };
+
+  const handleStart = () => {
+    setNickname(inputValue);
   };
 
   return (
@@ -29,12 +33,14 @@ function Game() {
             type="text"
             placeholder="Wprowadź swoją nazwę"
             id="nickname"
-            value={nickname}
+            value={inputValue}
             onChange={handleInputChange}
           />
         </div>
-        {nickname.trim() ? (
-          <Button content="Start" link="game" />
+        {inputValue.trim() ? (
+          <Link to="/game" className="button fs-5" onClick={handleStart}>
+            Start
+          </Link>
         ) : (
           <span className="button fs-5 button--disabled">Start</span>
         )}
