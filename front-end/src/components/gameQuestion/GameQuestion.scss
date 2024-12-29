@@ -1,0 +1,42 @@
+@import "@styles/mixins.scss";
+@import "@styles/colors.scss";
+
+.game-question {
+  @include setDisplay(flex, center, start, row);
+  gap: 15px;
+  padding: 15px;
+  border: 2px solid $cl-white-25;
+  background-color: $cl-black;
+  color: $cl-gray;
+  cursor: pointer;
+
+  &__checkbox {
+    position: relative;
+    width: 20px;
+    height: 20px;
+
+    label {
+      border-radius: 50%;
+      border: 2px solid $cl-white-25;
+      cursor: pointer;
+      height: 20px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 20px;
+    }
+
+    input {
+      visibility: hidden;
+
+      &:checked + label {
+        background-color: $cl-purple;
+        border-color: $cl-purple;
+      }
+
+      &:checked + label:after {
+        opacity: 1;
+      }
+    }
+  }
+}
