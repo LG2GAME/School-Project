@@ -1,19 +1,13 @@
 import { useState } from "react";
 import { HashLink as Link } from "react-router-hash-link";
-import { useNickname } from "@context/UserContext";
 
 import "./Quiz.scss";
 
 function Quiz() {
   const [inputValue, setInputValue] = useState("");
-  const { setNickname } = useNickname(inputValue);
 
   const handleInputChange = (e) => {
     setInputValue(e.target.value);
-  };
-
-  const handleStart = () => {
-    setNickname(inputValue);
   };
 
   return (
@@ -38,7 +32,7 @@ function Quiz() {
           />
         </div>
         {inputValue.trim() ? (
-          <Link to="/game" className="button fs-5" onClick={handleStart}>
+          <Link to="/game" className="button fs-5">
             Start
           </Link>
         ) : (

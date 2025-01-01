@@ -16,4 +16,14 @@
   &:hover {
     @include setScale();
   }
+
+  &--disabled {
+    border-color: $cl-white-25;
+    color: $cl-white-25;
+    cursor: default !important;
+
+    &:hover {
+      @include setScale(1);
+    }
+  }
 }

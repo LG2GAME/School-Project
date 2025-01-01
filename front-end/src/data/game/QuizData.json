@@ -1,0 +1,262 @@
+[
+  {
+    "id": 1,
+    "question": "Co oznacza termin 'dane osobowe'?",
+    "answers": [
+      {
+        "id": 1,
+        "text": "Informacje, które pozwalają zidentyfikować osobę fizyczną",
+        "isCorrect": true
+      },
+      { "id": 2, "text": "Dane dotyczące przedsiębiorstw", "isCorrect": false },
+      { "id": 3, "text": "Anonimowe statystyki", "isCorrect": false },
+      { "id": 4, "text": "Publicznie dostępne informacje", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 2,
+    "question": "Która z poniższych danych NIE jest uważana za dane osobowe?",
+    "answers": [
+      { "id": 1, "text": "Adres e-mail", "isCorrect": false },
+      { "id": 2, "text": "Numer IP", "isCorrect": false },
+      { "id": 3, "text": "Numer telefonu firmy", "isCorrect": true },
+      { "id": 4, "text": "Data urodzenia", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 3,
+    "question": "Czy hasło powinno być regularnie zmieniane?",
+    "answers": [
+      { "id": 1, "text": "Prawda", "isCorrect": true },
+      { "id": 2, "text": "Fałsz", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 4,
+    "question": "Jaka jest rola szyfrowania w ochronie danych?",
+    "answers": [
+      {
+        "id": 1,
+        "text": "Zapewnia prywatność przesyłanych informacji",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Zwiększa szybkość transmisji danych",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Pozwala na przechowywanie danych w chmurze",
+        "isCorrect": false
+      },
+      { "id": 4, "text": "Usuwa dane po ich przetworzeniu", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 5,
+    "question": "Czy publiczne Wi-Fi jest bezpieczne do przesyłania wrażliwych danych?",
+    "answers": [
+      { "id": 1, "text": "Tak", "isCorrect": false },
+      { "id": 2, "text": "Nie", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 6,
+    "question": "Co to jest phishing?",
+    "answers": [
+      {
+        "id": 1,
+        "text": "Atak mający na celu wyłudzenie poufnych informacji",
+        "isCorrect": true
+      },
+      { "id": 2, "text": "Proces szyfrowania danych", "isCorrect": false },
+      {
+        "id": 3,
+        "text": "Technika ochrony przed wirusami",
+        "isCorrect": false
+      },
+      { "id": 4, "text": "System zarządzania danymi", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 7,
+    "question": "Mocne hasło powinno zawierać kombinację liter, cyfr i znaków specjalnych.",
+    "answers": [
+      { "id": 1, "text": "Prawda", "isCorrect": true },
+      { "id": 2, "text": "Fałsz", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 8,
+    "question": "Które z poniższych działań NIE zwiększa bezpieczeństwa danych?",
+    "answers": [
+      { "id": 1, "text": "Regularna zmiana haseł", "isCorrect": false },
+      {
+        "id": 2,
+        "text": "Używanie tego samego hasła na wielu stronach",
+        "isCorrect": true
+      },
+      { "id": 3, "text": "Aktualizacja oprogramowania", "isCorrect": false },
+      {
+        "id": 4,
+        "text": "Korzystanie z uwierzytelniania dwuskładnikowego",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "question": "Czy dane osobowe mogą być udostępniane bez zgody właściciela?",
+    "answers": [
+      {
+        "id": 1,
+        "text": "Tak, jeśli wymagają tego przepisy prawa",
+        "isCorrect": true
+      },
+      { "id": 2, "text": "Nie, w żadnym przypadku", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 10,
+    "question": "Jaki jest cel uwierzytelniania dwuskładnikowego?",
+    "answers": [
+      {
+        "id": 1,
+        "text": "Zapewnienie dodatkowej warstwy bezpieczeństwa",
+        "isCorrect": true
+      },
+      { "id": 2, "text": "Ułatwienie logowania", "isCorrect": false },
+      {
+        "id": 3,
+        "text": "Przyspieszenie przesyłania danych",
+        "isCorrect": false
+      },
+      { "id": 4, "text": "Automatyczna aktualizacja haseł", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 11,
+    "question": "Czy dane biometryczne są zawsze bezpieczne?",
+    "answers": [
+      { "id": 1, "text": "Tak", "isCorrect": false },
+      { "id": 2, "text": "Nie", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 12,
+    "question": "Jakie dane powinny być szczególnie chronione?",
+    "answers": [
+      { "id": 1, "text": "Dane finansowe i zdrowotne", "isCorrect": true },
+      { "id": 2, "text": "Publiczne statystyki", "isCorrect": false },
+      { "id": 3, "text": "Dane techniczne urządzeń", "isCorrect": false },
+      { "id": 4, "text": "Numery seryjne sprzętu", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 13,
+    "question": "Które z poniższych jest przykładem danych wrażliwych?",
+    "answers": [
+      { "id": 1, "text": "Numer PESEL", "isCorrect": true },
+      { "id": 2, "text": "Imię i nazwisko", "isCorrect": false },
+      { "id": 3, "text": "Numer telefonu", "isCorrect": false },
+      { "id": 4, "text": "Adres zamieszkania", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 14,
+    "question": "Czy backup danych to skuteczna metoda ochrony przed utratą danych?",
+    "answers": [
+      { "id": 1, "text": "Tak", "isCorrect": true },
+      { "id": 2, "text": "Nie", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 15,
+    "question": "Jakie działanie należy podjąć w przypadku podejrzenia wycieku danych?",
+    "answers": [
+      {
+        "id": 1,
+        "text": "Zgłosić incydent odpowiednim organom",
+        "isCorrect": true
+      },
+      { "id": 2, "text": "Zignorować sytuację", "isCorrect": false },
+      { "id": 3, "text": "Udostępnić dane publicznie", "isCorrect": false },
+      { "id": 4, "text": "Nie zmieniać haseł", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 16,
+    "question": "Czy korzystanie z VPN zwiększa bezpieczeństwo danych w sieci?",
+    "answers": [
+      { "id": 1, "text": "Tak", "isCorrect": true },
+      { "id": 2, "text": "Nie", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 17,
+    "question": "Co to jest ransomware?",
+    "answers": [
+      {
+        "id": 1,
+        "text": "Oprogramowanie, które blokuje dostęp do danych",
+        "isCorrect": true
+      },
+      { "id": 2, "text": "System antywirusowy", "isCorrect": false },
+      { "id": 3, "text": "Technologia szyfrowania danych", "isCorrect": false },
+      { "id": 4, "text": "Zestaw zasad ochrony danych", "isCorrect": false }
+    ]
+  },
+  {
+    "id": 18,
+    "question": "Czy dane przechowywane w chmurze są zawsze w pełni bezpieczne?",
+    "answers": [
+      { "id": 1, "text": "Tak", "isCorrect": false },
+      { "id": 2, "text": "Nie", "isCorrect": true }
+    ]
+  },
+  {
+    "id": 19,
+    "question": "Który z poniższych przykładów jest naruszeniem RODO?",
+    "answers": [
+      {
+        "id": 1,
+        "text": "Przechowywanie danych bez zgody użytkownika",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Korzystanie z uwierzytelniania dwuskładnikowego",
+        "isCorrect": false
+      },
+      {
+        "id": 3,
+        "text": "Regularne aktualizacje oprogramowania",
+        "isCorrect": false
+      },
+      {
+        "id": 4,
+        "text": "Zapewnienie anonimowości użytkownika",
+        "isCorrect": false
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "question": "Jaką rolę odgrywa firewall w ochronie danych?",
+    "answers": [
+      {
+        "id": 1,
+        "text": "Blokuje nieautoryzowany dostęp do sieci",
+        "isCorrect": true
+      },
+      {
+        "id": 2,
+        "text": "Przyspiesza działanie komputera",
+        "isCorrect": false
+      },
+      { "id": 3, "text": "Tworzy kopie zapasowe", "isCorrect": false },
+      { "id": 4, "text": "Usuwa wirusy z systemu", "isCorrect": false }
+    ]
+  }
+]
