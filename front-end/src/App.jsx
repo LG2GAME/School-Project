@@ -1,5 +1,4 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { NicknameProvider } from "./context/UserContext";
 
 import "bootstrap/dist/css/bootstrap.min.css";
 import "@styles/globals.scss";
@@ -13,6 +12,7 @@ import YourWebData from "@pages/yourWebData/YourWebData";
 import Footer from "@pages/footer/Footer";
 import Protect from "@pages/protect/Protect";
 import Game from "@pages/game/Game";
+import Results from "@pages/game/results/Results";
 import Quiz from "./pages/quiz/Quiz";
 
 function App() {
@@ -22,19 +22,17 @@ function App() {
         <Route
           path="/"
           element={
-            <NicknameProvider>
-              <div>
-                <Navbar />
-                <div className="container">
-                  <Hero />
-                  <WhyProtectData />
-                  <WhatItIs />
-                  <YourWebData />
-                  <Game />
-                  <Footer />
-                </div>
+            <div>
+              <Navbar />
+              <div className="container">
+                <Hero />
+                <WhyProtectData />
+                <WhatItIs />
+                <YourWebData />
+                <Quiz />
+                <Footer />
               </div>
-            </NicknameProvider>
+            </div>
           }
         />
         <Route path="security">
@@ -63,16 +61,24 @@ function App() {
             }
           />
         </Route>
-        <Route
-          path="/game"
-          element={
-            <NicknameProvider>
+        <Route path="game">
+          <Route
+            path=""
+            element={
               <div className="container">
-                <Quiz /> {/* Komponent quizu */}
+                <Game />
               </div>
-            </NicknameProvider>
-          }
-        />
+            }
+          />
+          <Route
+            path="results"
+            element={
+              <div className="container">
+                <Results />
+              </div>
+            }
+          />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
